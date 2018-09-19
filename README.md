@@ -1,4 +1,4 @@
-#Airbnb
+# Airbnb
 
 
 The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: Occuputancy Rate and Listing Price. I performed the analysis on those two aspects. The end goal is to use the insights to help hosts make better decisions and increase income. 
