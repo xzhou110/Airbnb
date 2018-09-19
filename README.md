@@ -1,13 +1,14 @@
 #Airbnb
 
 
-The project is to perform a topic analysis on customer reviews for Amazon Echo. This is to understand what major factors drive positive vs. negative experience. The end goal is to use the insights to help business enhance self-awareness and make better decisions. The modeling from this project can be applied to any reviews of any product or service for insight extraction. 
+The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: Occuputancy Rate and Listing Price. I performed the analysis on those two aspects. The end goal is to use the insights to help hosts make better decisions and increase income. 
 
 ### Project Design: 
-Step 1: Clean up datasets and combine two datasets for analysis
-Step 2: Break down reviews into positive (>3 rating) and negative sentiment (<3 rating) groups based on ratings 
-Step 3: Performed cluster analysis on positive and negative sentiment groups 
-Step 4: If limited information extracted from step 3, perform topic modeling on positive and negative sentiment groups 
+Rental income is primarily driven by two factors: Occuputancy Rate and Listing Price. The analysis is conducted from the two aspects. Firstly, get an understanding of customers' needs. This is used to better serve customers and enhance occuputancy rate. Secondly, Predict appropraite pricing for hosts to list their apartments.This is to enhance earning potential
+
+Step 1: Clean up datasets and perform regression on listings. Perform feature selection to drill down to features with satistical significance
+Step 2: Clean up datasets and idenify apartments that have prices available in last 12 months. Add day of weeks and months as features. Perform price analysis and modeling.
+Step 3: Perform topic modeling on customer reviews. Extact major topics that customers dicuss about for positive experience.  
 
 ### Tools: 
 - Pandas for data manipulation
@@ -19,7 +20,7 @@ Step 4: If limited information extracted from step 3, perform topic modeling on 
  
 ### Data: 
 - Dataset #1: Listings of apartmnets (name, host, apartment related information) - 10k+ listings
-- Dataset #2: Listing prices for a year - 240k+ prices
+- Dataset #2: Listings of prices for a year - 240k+ prices
 - Dataset #3: Customer Reviews - 150K+ reviews
 
 
