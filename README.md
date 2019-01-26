@@ -1,7 +1,7 @@
 # Airbnb
 
 
-The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: Occupancy Rate and Listing Price. Analysis was performed on those two aspects. The end goal is to use the insights to help hosts make better decisions and increase income.
+The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: Apartment Listing Price and Occupancy Rate. Analysis was performed on those two aspects. The end goal is to use the insights to help hosts make better decisions and increase income.
 
 ### Project Design: 
 
@@ -31,6 +31,6 @@ Step 3: Perform topic modeling on customer reviews. Extract major topics that cu
 - Topic Modeling
 
 ### Learning and Recommended Next Steps:
-- Build a recommender system based on users' selection
+- Build a recommender system based on users' criteria
 
 
