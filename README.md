@@ -7,8 +7,8 @@ The project is to help Airbnb hosts to maximize income on Airbnb. Rental income 
 
 Firstly, we need to predict appropriate pricing to list apartments, which can help maximize earning potential. Secondly, in order to improve occupancy rate, we need to gain an understanding of customers' needs. This is to improve customer experience, leading to enhanced word-of-mouth marketing and customer return rate. 
 
-Step 1: Data retrieval and exploration. Perform linear and non-linear regression models on pricing data. Select features based on importance of features
-Step 2: Add timing and seasonality information. Updated pricing model with sesonality information.
+Step 1: Data retrieval and exploration. Perform linear and non-linear regression models on pricing data. Select features based on importance of features 
+Step 2: Add timing and seasonality information. Updated pricing model with seasonality information. 
 Step 3: Perform topic modeling on customer reviews. Identify major topics that drive positive experience.  
 
 ### Tools: 
@@ -20,7 +20,7 @@ Step 3: Perform topic modeling on customer reviews. Identify major topics that d
 - Visualization: Word Cloud
  
 ### Data: 
-- Dataset #1: Listings of Apartmnets (name, host, apartment related information) - 10k+ listings
+- Dataset #1: Listings of Apartments (name, host, apartment related information) - 10k+ listings
 - Dataset #2: Listing Price for Entire Year - 240k+ prices
 - Dataset #3: Customer Reviews - 150K+ reviews
 
