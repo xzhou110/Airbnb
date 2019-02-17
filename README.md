@@ -1,27 +1,27 @@
 # Airbnb
 
 
-The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: Apartment Listing Price and Occupancy Rate. Analysis was performed on those two aspects. The end goal is to use the insights to help hosts make better decisions and increase income.
+The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: listing price and occupancy Rate. The analysis was performed on those two aspects. The end goal is to use the insights to help hosts make better pricing decisions, improve user experience to boost occupancy rate, and eventually increase income.
 
 ### Project Design: 
 
-Firstly, we need to predict appropriate pricing for hosts to list their apartments. This is to enhance earning potential. Secondly, in order to improve occupancy rate, we need to get an understanding of customers' needs. This is to better serve customers, leading to improved word-of-mouth marketing and customer return rate. 
+Firstly, we need to predict appropriate pricing to list apartments, which can help maximize earning potential. Secondly, in order to improve occupancy rate, we need to gain an understanding of customers' needs. This is to improve customer experience, leading to enhanced word-of-mouth marketing and customer return rate. 
 
-Step 1: Clean up datasets and perform regression on listings. Perform feature selection to drill down to features with statistical significance 
-Step 2: Clean up datasets and identify apartments that have prices available in last 12 months. Add day of weeks and months as additional features. Perform price analysis and modeling.
-Step 3: Perform topic modeling on customer reviews. Extract major topics that customers discuss about for  positive experience.  
+#### Step 1: Data retrieval and exploration. Perform linear and non-linear regression models on pricing data. Select features based on importance of features
+#### Step 2: Add timing and seasonality information. Updated pricing model with sesonality information.
+#### Step 3: Perform topic modeling on customer reviews. Identify major topics that drive positive experience.  
 
 ### Tools: 
-- Pandas for data manipulation
-- Pickle for data storage
-- SVD for dimension reduction
-- KMeans for cluster analysis
-- LDA for Topic analysis
-- Word Cloud for visualization
+- Data Manipulation: Python, Pandas
+- Data Storage: Pickle
+- Dimension Reduction: SVD
+- Cluster Analysis: K-means
+- Topic Modeling: LDA
+- Visualization: Word Cloud
  
 ### Data: 
-- Dataset #1: Listings of apartmnets (name, host, apartment related information) - 10k+ listings
-- Dataset #2: Listings of prices for a year - 240k+ prices
+- Dataset #1: Listings of Apartmnets (name, host, apartment related information) - 10k+ listings
+- Dataset #2: Listing Price for Entire Year - 240k+ prices
 - Dataset #3: Customer Reviews - 150K+ reviews
 
 
@@ -32,5 +32,3 @@ Step 3: Perform topic modeling on customer reviews. Extract major topics that cu
 
 ### Learning and Recommended Next Steps:
 - Build a recommender system based on users' criteria
-
-
