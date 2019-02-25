@@ -1,7 +1,7 @@
 # Airbnb Host Income Enhancement
 
 
-The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: listing price and occupancy Rate. The analysis was performed on those two aspects. The end goal is to use the insights to help hosts make better pricing decisions, improve user experience to boost occupancy rate, and eventually increase income.
+The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: listing price and occupancy Rate. The analysis was performed on those two aspects, with the end goal to help hosts make better pricing decisions, improve user experience to boost occupancy rate, and eventually increase income.
 
 ### Project Design: 
 
