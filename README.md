@@ -1,7 +1,7 @@
 # Airbnb Host Income Enhancement
 
 
-The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: listing price and occupancy Rate. The analysis was performed on those two aspects. The end goal is to use the insights to help hosts make better pricing decisions, improve user experience to boost occupancy rate, and eventually increase income.
+The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: listing price and occupancy Rate. The analysis was performed on those two aspects, with the end goal to help hosts make better pricing decisions, improve user experience to boost occupancy rate, and eventually increase income.
 
 ### Project Design: 
 
@@ -14,8 +14,7 @@ Step 3: Perform topic modeling on customer reviews. Identify major topics that d
 ### Tools: 
 - Data Manipulation: Python, Pandas
 - Data Storage: Pickle
-- Dimension Reduction: SVD
-- Cluster Analysis: K-means
+- NLP: NLTK
 - Topic Modeling: LDA
 - Visualization: Word Cloud
  
@@ -29,6 +28,9 @@ Step 3: Perform topic modeling on customer reviews. Identify major topics that d
 - Linear Regression Analysis
 - Non-linear Regression Analysis
 - Topic Modeling
+
+### Slides:
+https://docs.google.com/presentation/d/1QiGoTwe4R6iVrAJ_zYK4TZFYHTBL-LhNMNycr35jxSA/edit?usp=sharing
 
 ### Learning and Recommended Next Steps:
 - Build a recommender system based on users' criteria
