@@ -1,15 +1,15 @@
 # Airbnb Host Income Enhancement
 
 
-The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: listing price and occupancy Rate. The analysis was performed on those two aspects, with the end goal to help hosts make better pricing decisions, improve user experience to boost occupancy rate, and eventually increase income.
+The project is to help Airbnb hosts to maximize income on Airbnb. Rental income is primarily driven by two factors: listing price and occupancy Rate. The analysis was performed on those two aspects, with the end goal to help hosts optimize pricing decisions, improve user experience for occupancy rate improvement, and eventually increase overall income.
 
 ### Project Design: 
 
-Firstly, we need to predict appropriate pricing to list apartments, which can help maximize earning potential. Secondly, in order to improve occupancy rate, we need to gain an understanding of customers' needs. This is to improve customer experience, leading to enhanced word-of-mouth marketing and customer return rate. 
+Firstly, we need to predict appropriate pricing to list apartments, which can help maximize earning potential. Secondly, in order to improve occupancy rate, we need to gain an understanding of customers' needs. This is to improve customer experience, leading to enhanced word-of-mouth marketing and customer returning rate. 
 
-Step 1: Data retrieval and exploration. Perform linear and non-linear regression models on pricing data. Select features based on importance of features 
-Step 2: Add timing and seasonality information. Updated pricing model with seasonality information. 
-Step 3: Perform topic modeling on customer reviews. Identify major topics that drive positive experience.  
+Step 1: Data retrieval and exploration. Performed initial linear and non-linear regression models on pricing data
+Step 2: Added timing and seasonality information. Updated pricing model with seasonality information. Selected features based on future importance.
+Step 3: Performed topic modeling on customer reviews. Identified major drivers of customer experience.  
 
 ### Tools: 
 - Data Manipulation: Python, Pandas
@@ -20,17 +20,17 @@ Step 3: Perform topic modeling on customer reviews. Identify major topics that d
  
 ### Data: 
 - Dataset #1: Listings of Apartments (name, host, apartment related information) - 10k+ listings
-- Dataset #2: Listing Price for Entire Year - 240k+ prices
+- Dataset #2: Listing Prices of Apartments for Entire Year - 240k+ prices
 - Dataset #3: Customer Reviews - 150K+ reviews
 
 
 ### Algorithms:
-- Linear Regression Analysis
-- Non-linear Regression Analysis
+- Linear Regression
+- Non-linear Regression
 - Topic Modeling
 
 ### Slides:
 https://docs.google.com/presentation/d/1QiGoTwe4R6iVrAJ_zYK4TZFYHTBL-LhNMNycr35jxSA/edit?usp=sharing
 
 ### Learning and Recommended Next Steps:
-- Build a recommender system based on users' criteria
+- Build a recommender system based on users' selected criteria
